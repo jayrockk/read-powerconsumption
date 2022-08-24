@@ -128,3 +128,5 @@ def get_Current_Production():
   return(jsonify(json_body)) 
 
 
+if __name__ == "__main__":
+    app.run(debug=True)
